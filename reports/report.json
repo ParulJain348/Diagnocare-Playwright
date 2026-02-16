@@ -1,0 +1,264 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\parul\\dignocare-playwright\\playwright.config.js",
+    "rootDir": "C:/Users/parul/dignocare-playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/parul/dignocare-playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/parul/dignocare-playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 40000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "reports/html"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "loginPageTest.spec.js",
+      "file": "loginPageTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login Functionality",
+          "file": "loginPageTest.spec.js",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Login with valid credentials",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 41167,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 40000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 40000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 40000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\parul\\dignocare-playwright\\tests\\loginPageTest.spec.js",
+                            "column": 28,
+                            "line": 16
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Diagno\u001b[7mc\u001b[27mare \u001b[7mPathology\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"Diagno\u001b[7mC\u001b[27mare \u001b[7mLogin\u001b[27m\"\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 30000ms\u001b[22m\n\u001b[2m    30 × unexpected value \"DiagnoCare Login\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 14 |\u001b[39m         \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mloginToApplication(process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mUSERNAME1\u001b[39m\u001b[33m,\u001b[39m process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mPATHOLOGY_ID\u001b[39m\u001b[33m,\u001b[39m process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mPASSWORD\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m         \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39menterOTP(process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mUSERNAME1\u001b[39m\u001b[33m,\u001b[39m process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mPATHOLOGY_ID\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"Diagnocare Pathology\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m\n \u001b[90m 18 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\parul\\dignocare-playwright\\tests\\loginPageTest.spec.js:16:28\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "OTP received from API:  string 830241\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-12T08:41:50.596Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\parul\\dignocare-playwright\\test-results\\loginPageTest-Login-Functi-b7fe1-ogin-with-valid-credentials-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\parul\\dignocare-playwright\\test-results\\loginPageTest-Login-Functi-b7fe1-ogin-with-valid-credentials-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\parul\\dignocare-playwright\\test-results\\loginPageTest-Login-Functi-b7fe1-ogin-with-valid-credentials-chromium\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\parul\\dignocare-playwright\\test-results\\loginPageTest-Login-Functi-b7fe1-ogin-with-valid-credentials-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4ed090341127a05c00a4-e2d3f4e460b514d8a1d5",
+              "file": "loginPageTest.spec.js",
+              "line": 11,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "pathloagyPageTest.spec.js",
+      "file": "pathloagyPageTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Pathlogy Creation",
+          "file": "pathloagyPageTest.spec.js",
+          "line": 18,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Create Pathology with valid details",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 78465,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "OTP received from API:  string 387693\n"
+                        },
+                        {
+                          "text": "Filling field: path_Name with value: StarHealth1\n"
+                        },
+                        {
+                          "text": "Filling field: path_Branch with value: sector 69\n"
+                        },
+                        {
+                          "text": "Filling field: path_Address1 with value: tulip lemon\n"
+                        },
+                        {
+                          "text": "Filling field: path_Address2 with value: sector 69\n"
+                        },
+                        {
+                          "text": "Filling field: path_City with value: Gurgaon\n"
+                        },
+                        {
+                          "text": "Filling field: path_Pincode with value: 122101\n"
+                        },
+                        {
+                          "text": "Filling field: path_Email with value: starhealth@gmail.com\n"
+                        },
+                        {
+                          "text": "Filling field: path_ContactNo with value: 8234754890\n"
+                        },
+                        {
+                          "text": "Filling field: amount_Paid with value: 20000\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-12T08:41:50.961Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\parul\\dignocare-playwright\\test-results\\pathloagyPageTest-Pathlogy-218bb-athology-with-valid-details-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\parul\\dignocare-playwright\\test-results\\pathloagyPageTest-Pathlogy-218bb-athology-with-valid-details-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\parul\\dignocare-playwright\\test-results\\pathloagyPageTest-Pathlogy-218bb-athology-with-valid-details-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5347b950edaeddb926a6-e66c4d04c7cf81fc6245",
+              "file": "pathloagyPageTest.spec.js",
+              "line": 19,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-02-12T08:41:46.123Z",
+    "duration": 139325.453,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
