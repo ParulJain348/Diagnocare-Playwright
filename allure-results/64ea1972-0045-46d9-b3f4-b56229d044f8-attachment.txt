@@ -1,0 +1,6 @@
+Request Body: {
+  "userId": "parul_jain",
+  "pathId": "InvalidPathologyID",
+  "password": "Snapwiz@123"
+}
+Status Code: 200

@@ -1,0 +1,7 @@
+API context initialized with base URL: http://diagnocare-qaapi:83
+Making POST request to /LoginAPI/GetUserDetails with body: UserDetailsRequest {
+  userId: 'parul_jain',
+  pathId: null,
+  password: 'Snapwiz@123'
+}
+API context disposed

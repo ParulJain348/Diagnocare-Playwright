@@ -1,0 +1,14 @@
+UserDetailsRequest {
+  username: {
+    userId: 'parul_jain',
+    pathId: 'P1',
+    password: 'sksjdkjdm',
+    code: '',
+    otpDigits: [ '', '', '', '', '', '' ]
+  },
+  pathId: undefined,
+  password: undefined,
+  code: undefined,
+  otpDigits: undefined
+}
+Status Code: 401

@@ -1,0 +1,6 @@
+Request Body: {
+  "userId": "",
+  "pathId": "LAB1000",
+  "password": "Snapwiz@123"
+}
+Status Code: 200

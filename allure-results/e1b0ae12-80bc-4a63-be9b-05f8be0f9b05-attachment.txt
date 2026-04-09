@@ -1,0 +1,16 @@
+Waiting for OTP API response... {"success":true,"message":"Success","token":"854709"}
+OTP received from API:  string 854709
+OTP failed. Retrying...
+Waiting for OTP API response... {"success":true,"message":"Success","token":"196578"}
+OTP received from API:  string 196578
+OTP failed. Retrying...
+Waiting for OTP API response... {"success":true,"message":"Success","token":"106576"}
+OTP received from API:  string 106576
+OTP failed. Retrying...
+Waiting for OTP API response... {"success":true,"message":"Success","token":"952021"}
+OTP received from API:  string 952021
+OTP failed. Retrying...
+Waiting for OTP API response... {"success":true,"message":"Success","token":"390753"}
+OTP received from API:  string 390753
+OTP failed. Retrying...
+OTP Success ✅

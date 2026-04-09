@@ -1,0 +1,9 @@
+Request Body: {
+  "userId": "parul_jain",
+  "pathId": "P1",
+  "password": "sksjdkjdm",
+  "code": ""
+}
+Status Code: 200
+Response: {"user_Id":3,"first_Name":"","last_Name":"","user_Name":"Parul_jain","password":"6452f13b507c2423f753092b1f0c5a117ea837de060543dff453f6b094715e0e","password_updated":false,"email":"user@example.com","contactPhone":9999999999,"path_Id":"P1","typeUserId":4,"loginType":1,"tokenExpiryMinutes":0,"id":0,"createdBy":null,"created":null,"lastModifiedBy":null,"lastModified":null}
+API Response: [object Object]

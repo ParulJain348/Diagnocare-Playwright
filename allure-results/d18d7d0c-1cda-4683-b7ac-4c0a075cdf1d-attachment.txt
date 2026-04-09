@@ -1,0 +1,12 @@
+Request Body: {
+  "userId": "parul_jain",
+  "pathId": "P1",
+  "password": "sksjdkjdm",
+  "code": ""
+}
+Full URL: http://diagnocare-qaapi:83/LoginAPI/GetUserDetails
+Auth Username: EasyDonts@Agra
+Auth Password: Admin@123456
+Status Code: 401
+Raw Response: 
+API Response: [object Object]

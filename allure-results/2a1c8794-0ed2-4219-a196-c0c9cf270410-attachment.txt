@@ -1,0 +1,12 @@
+Making POST request to /LoginAPI/GetUserDetails
+undefined
+Status Code: 401
+Retrying... Attempt 1
+Making POST request to /LoginAPI/GetUserDetails
+undefined
+Status Code: 401
+Retrying... Attempt 2
+Making POST request to /LoginAPI/GetUserDetails
+undefined
+Status Code: 401
+Retrying... Attempt 3

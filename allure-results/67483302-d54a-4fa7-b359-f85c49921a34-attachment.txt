@@ -1,0 +1,9 @@
+Request Body: {
+  "userId": "parul_jain",
+  "pathId": "P1",
+  "password": "sksjdkjdm",
+  "code": ""
+}
+Status Code: 200
+Response: {"success":false,"message":"Invalid credentials","token":""}
+API Response: [object Object]

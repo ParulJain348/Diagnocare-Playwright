@@ -1,0 +1,19 @@
+API context initialized with base URL: http://diagnocare-qaapi:83
+API context initialized with base URL: http://diagnocare-qaapi:83
+API context initialized with base URL: http://diagnocare-qaapi:83
+📋 HEADERS: { cookies: [], origins: [] }
+Making POST request to /LoginAPI/GetUserDetails with body: UserDetailsRequest {
+  userId: 'parul_jain',
+  pathId: 'LAB1000',
+  password: 'Snapwiz@123'
+}
+📋 RESPONSE HEADERS: {
+  'transfer-encoding': 'chunked',
+  'content-type': 'application/json; charset=utf-8',
+  server: 'Kestrel',
+  'x-powered-by': 'ASP.NET',
+  date: 'Thu, 09 Apr 2026 01:52:43 GMT'
+}
+Status Code: 200
+Response: {"success":true,"message":"User Found","token":""}
+API context disposed

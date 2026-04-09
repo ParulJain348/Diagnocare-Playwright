@@ -1,0 +1,4 @@
+API context initialized with base URL: http://diagnocare-qaapi:83
+Status Code: 200
+Response: {"success":false,"message":"Invalid credentials","token":""}
+API context disposed

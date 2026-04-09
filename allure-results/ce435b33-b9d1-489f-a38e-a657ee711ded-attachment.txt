@@ -1,0 +1,8 @@
+Request Body: {
+  "userId": "InvalidUser",
+  "pathId": "LAB1000",
+  "password": "Snapwiz@123"
+}
+Status Code: 200
+Response Body: UserDetailsResponse {}
+Request Body: Promise { <pending> }

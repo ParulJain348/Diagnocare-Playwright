@@ -1,0 +1,6 @@
+Request Body: {
+  "userId": "",
+  "pathId": "",
+  "password": ""
+}
+Status Code: 200

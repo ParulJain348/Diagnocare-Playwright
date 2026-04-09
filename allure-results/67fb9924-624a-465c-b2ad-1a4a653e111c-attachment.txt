@@ -1,0 +1,8 @@
+Waiting for OTP API response... {"success":true,"message":"Success","token":"833512"}
+OTP received from API:  string 833512
+OTP failed. Retrying...
+Waiting for OTP API response... {"success":true,"message":"Success","token":"371770"}
+OTP received from API:  string 371770
+OTP failed. Retrying...
+Waiting for OTP API response... {"success":true,"message":"Success","token":"802267"}
+OTP received from API:  string 802267

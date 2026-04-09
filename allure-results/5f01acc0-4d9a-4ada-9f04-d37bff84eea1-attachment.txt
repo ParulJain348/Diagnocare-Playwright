@@ -1,0 +1,7 @@
+Sending POST to: http://diagnocare-qaapi:83/LoginAPI/GetUserDetails
+Request Body: {
+  "userId": "parul_jain",
+  "pathId": "LAB1000",
+  "password": "Snapwiz@123"
+}
+Status Code: { success: true, message: 'User Found', token: '' }

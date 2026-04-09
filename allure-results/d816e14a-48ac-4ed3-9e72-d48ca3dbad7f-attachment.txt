@@ -1,0 +1,4 @@
+API context initialized with base URL: http://diagnocare-qaapi:83
+Response: {"success":true,"message":"User Found","token":""}
+Status Code: 200
+API context disposed

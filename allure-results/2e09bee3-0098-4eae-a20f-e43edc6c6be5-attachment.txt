@@ -1,0 +1,3 @@
+Making POST request to LoginAPI/GetUserDetails with body: {"username":{"userId":"parul_jain","pathId":"P1","password":"sksjdkjdm"}}
+Auth: undefined
+Waiting for LoginAPI/GetUserDetails API response... 

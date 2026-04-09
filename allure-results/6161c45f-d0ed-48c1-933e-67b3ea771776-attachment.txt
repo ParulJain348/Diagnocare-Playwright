@@ -1,0 +1,10 @@
+API context initialized with base URL: http://diagnocare-qaapi:83
+API context initialized with base URL: http://diagnocare-qaapi:83
+API context initialized with base URL: http://diagnocare-qaapi:83
+📋 HEADERS: { cookies: [], origins: [] }
+Making POST request to /LoginAPI/GetUserDetails with body: UserDetailsRequest {
+  userId: 'parul_jain',
+  pathId: 'LAB1000',
+  password: 'Snapwiz@123'
+}
+API context disposed

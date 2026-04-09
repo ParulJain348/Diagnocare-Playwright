@@ -1,0 +1,10 @@
+API context initialized with base URL: http://diagnocare-qaapi:83
+Status Code: 200
+Response Body: APIResponse: 200 OK
+  Transfer-Encoding: chunked
+  Content-Type: application/json; charset=utf-8
+  Server: Kestrel
+  X-Powered-By: ASP.NET
+  Date: Tue, 07 Apr 2026 14:57:53 GMT
+Request Body: Promise { <pending> }
+API context disposed

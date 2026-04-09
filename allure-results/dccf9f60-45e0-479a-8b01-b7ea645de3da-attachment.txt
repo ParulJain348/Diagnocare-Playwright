@@ -1,0 +1,7 @@
+Request Body: {
+  "userId": "parul_jain",
+  "pathId": "P1",
+  "password": "sksjdkjdm",
+  "code": ""
+}
+Status Code: 401

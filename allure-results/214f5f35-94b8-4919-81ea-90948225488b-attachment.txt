@@ -1,0 +1,8 @@
+Request Body: {
+  "username": "parul_jain",
+  "pathId": "P1",
+  "password": "sksjdkjdm",
+  "code": "",
+  "otpDigits": "[\"\",\"\",\"\",\"\",\"\",\"\"]"
+}
+Status Code: 401

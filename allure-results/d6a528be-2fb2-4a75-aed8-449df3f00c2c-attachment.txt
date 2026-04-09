@@ -1,0 +1,5 @@
+API context initialized with base URL: http://diagnocare-qaapi:83
+Making POST request to /LoginAPI/GetUserDetails with body: UserDetailsRequest { userId: null, pathId: null, password: null }
+Status Code: 400
+Response: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"PathId":["The PathId field is required."],"UserId":["The UserId field is required."],"Password":["The Password field is required."]},"traceId":"00-27db5a0b374b527b0a9eb6f83b10e524-575b3342ed1a030f-00"}
+API context disposed
